@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset=" UTF-8">
+    <title>Formulário de pesquisa</title>
+</head>
+<body>
+    <form method="POST" action="pesquisa.jsp">
+        <label>Você quer participar da pesquisa</label>
+        <input type="radio" name="pesquisa" value="Sim"> Sim
+        <input type="radio" name="pesquisa" value="Não"> Não
+        <br><br>
+
+        <label>Nome</label>
+        <input type="text" name="nome" placeholder="Digite o nome">
+        <br>
+
+        <label>Idade</label>
+        <input type="number" name="idade" placehlder="Digite a idad">
+        <br>
+
+        <label>salário</label>
+        <input type="number" name="salario" placeholder="Digite o salário">
+        <br>
+
+        <label>Obsevações</label>
+        <textarea name="obs"></textarea>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+</html>

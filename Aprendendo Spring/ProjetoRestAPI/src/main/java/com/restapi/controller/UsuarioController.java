@@ -46,6 +46,5 @@ public class UsuarioController {
         HttpStatus status = (valido) ? HttpStatus.OK : HttpStatus.UNAUTHORIZED;
         return ResponseEntity.status(status).body(valido);
 
-
     }
 }
